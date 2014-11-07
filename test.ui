@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<interface>
+  <!-- interface-requires egg 0.0 -->
+  <requires lib="gtk+" version="2.16"/>
+  <!-- interface-naming-policy project-wide -->
+  <object class="GtkWindow" id="window1">
+    <child>
+      <object class="EggPlayer" id="clockface1">
+        <property name="visible">True</property>
+        <property name="uri">file:///home/juan/Desktop/Mis c&#xF3;digos fuentes/glade-custom-widget/egg-player/egg-player/outfile.mpg</property>
+      </object>
+    </child>
+  </object>
+</interface>

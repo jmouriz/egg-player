@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glade-catalog name="egg" library="libegg.so" depends="gtk+">
+  <glade-widget-classes>
+    <glade-widget-class name="EggPlayer" generic-name="player" title="Player" />
+    <properties>
+      <property id="uri" name="URI" ignore="False">
+      <parameter-spec>
+        <type>GParamString</type>
+      </parameter-spec>
+        <tooltip>Media source</tooltip>
+      </property>
+    </properties>
+  </glade-widget-classes>
+  <glade-widget-group name="egg-widgets" title="Egg Widgets">
+    <glade-widget-class-ref name="EggPlayer"/>
+  </glade-widget-group>
+</glade-catalog>
